@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Desktop/HW5/problem2/problem2_2.h
+iostream
+-
+string
+-
+utility
+-
+set
+-
+vector
+-
+tuple
+-
+
+/Users/mac/Desktop/HW5/problem2/problem2_3.cpp
+problem2_2.h
+/Users/mac/Desktop/HW5/problem2/problem2_2.h
+problem2_3.h
+/Users/mac/Desktop/HW5/problem2/problem2_3.h
+
+/Users/mac/Desktop/HW5/problem2/problem2_3.h
+iostream
+-
+string
+-
+utility
+-
+set
+-
+vector
+-
+tuple
+-
+

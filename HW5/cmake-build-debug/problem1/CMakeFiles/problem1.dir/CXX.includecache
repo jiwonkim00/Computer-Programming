@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Desktop/HW5/problem1/CSI.cpp
+fstream
+-
+CSI.h
+/Users/mac/Desktop/HW5/problem1/CSI.h
+
+/Users/mac/Desktop/HW5/problem1/CSI.h
+iostream
+-
+string
+-
+cmath
+-
+
+/Users/mac/Desktop/HW5/problem1/TestHelper.h
+iostream
+-
+sstream
+-
+fstream
+-
+
+/Users/mac/Desktop/HW5/problem1/main.cpp
+CSI.h
+/Users/mac/Desktop/HW5/problem1/CSI.h
+TestHelper.h
+/Users/mac/Desktop/HW5/problem1/TestHelper.h
+cassert
+-
+
